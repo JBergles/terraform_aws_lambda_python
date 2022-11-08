@@ -6,7 +6,7 @@ mkdir -p $dir_name
 
 #virtual env setup
 cd $path_module
-virtualenv -p $runtime env-$function_name
+python -m venv env-$function_name
 source env-$function_name/bin/activate
 
 if [[ $source_code_path != /* ]];then
