@@ -1,2 +1,1 @@
-awsscout2
-Pillow
+requests
